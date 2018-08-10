@@ -1,0 +1,503 @@
+:root
+{
+    --blue: #95e1d3;
+    --pink: #f38181;
+    --yellow: #fce38a;
+}
+body
+{
+    margin: 0;
+    background-color: white;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner
+{
+    background: url(img/Layer\ 15.png) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.titles
+{
+    display:flex;
+    padding: 2rem;
+    font-size: 12px;
+    margin: 0 auto;
+    flex-direction:column;
+    align-items: center;
+    grid-area: titles;
+}
+.title
+{
+    font-size: 1.5em;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;
+}
+.title2
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+}
+.learn
+{
+    padding: 0.5rem 1rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    align-self: center;
+}
+.slider
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    grid-gap: 5rem;
+}
+.number
+{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+}
+.banner .titles
+{
+    font-size: 35px;
+    line-height: 6rem;
+}   
+.logo
+{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 3rem;
+    text-align: start;
+    font-size: 1.2rem;
+    text-transform: none;
+    font-weight: bold;
+}
+#aboutus
+{
+    padding: 2rem 10rem;
+    text-align: center;
+}
+.facts
+{
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.2rem;
+    background-color: var(--blue);
+    color: white;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+.facts .number
+{
+    font-size: 3rem;
+}
+.img
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+.img img
+{
+    padding-top: 2rem;
+    width: 100%;
+}
+#service
+{
+    padding: 2rem 10rem;
+    text-align: center;
+}
+.services
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    padding-bottom :2rem;
+}
+.servicestitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+.services .icon
+{
+    font-size: 2rem;
+    color: var(--blue);
+    float:left;
+    height: 100%;
+}
+.serviceitem
+{
+    text-align: left;
+}
+.feauture
+{
+    background: url(img/Layer45.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.logos
+{
+    background-color: #f8f8f8;
+    widows: 100%;
+    text-align: center;
+}
+.map
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    color: var(--pink);
+    background: url("img/Layer 59.png") no-repeat center;
+    width: 100%;
+    background-size: cover;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+    line-height: 0.5rem;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.map p
+{
+    color: var(--pink);
+}
+p
+{
+    color: #999999;
+}
+.obrazek
+{
+    border-radius: 50%;
+    float:left;
+    padding-right: 2rem;
+}
+.pptitle
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.whatpeoplesay
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
+    grid-gap: 2rem;
+    padding: 2rem 10rem;
+    background: url("img/Layer 53.png") no-repeat center;
+    background-size: cover;
+    height:100%;
+}
+.whatpeoplesay .titles
+{
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+.footer
+{
+    background-color: #f8f8f8;
+    padding: 2rem 10rem;
+
+}
+.upper
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+    height: 100%;
+}
+.footer a
+{
+    text-decoration: none;
+    color: var(--blue);
+}
+.instaphotos
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    padding: 1rem 0;
+}
+
+.instagram a
+{
+    color: #999999;
+}
+.line
+{
+    height: 3px;
+    width: 3rem;
+    border-bottom: solid 2px var(--pink);
+    margin: 1rem;
+}
+.banner .line
+{
+    border-color: white;
+}
+.icon-chat
+{
+    color: var(--blue);
+    font-size: 3rem;
+    border: solid 3px var(--blue);
+    padding: 0.6rem; 
+    margin: auto;
+    grid-row: 1/-1;
+}
+.quote
+{
+    display: grid;
+    grid-gap: 1rem;
+    padding: 2rem 10rem;
+    grid-template-columns: 3fr 10fr;
+    grid-template-rows: 1fr 1fr;
+    background: #f8f8f8;
+    align-items: center;
+}
+.quote img
+{
+    grid-row: span 2;
+}
+.quote p
+{
+    grid-column: 2/-1;
+}
+.quote .autor
+{
+    display: flex;
+}
+.autor .line
+{
+    margin-top: 0.5rem;
+}
+.services2item i
+{
+    color: var(--blue);
+    font-size: 1rem;
+}
+.services2item
+{
+    border: solid 0.2px #dddddd;
+    border-bottom: none;
+}
+.services2item:last-child
+{
+    border-bottom: solid 0.2px #dddddd;
+}
+.service2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1rem;
+    padding: 2rem 10rem;
+    grid-template-areas: 
+    "titles titles"
+    "text text"
+    "photo items";
+}
+.services2
+{
+    grid-area: items;
+}
+.service2 img
+{
+    width:100%;
+    display: block;
+    grid-area: photo;
+}
+.service2 p
+{
+    grid-area: text;
+}
+.services2title .title2
+{  
+    font-size: 0.5rem;
+    font-weight: 400;
+}
+.services2title
+{
+    display:flex;
+    align-items: center;
+    padding: 0.2rem;
+    border-bottom: solid 0.2px #f8f8f8;
+}
+.services2text
+{
+    padding: 0 1rem;
+    height:0;
+    overflow:hidden;
+}
+.services2item:active > .services2text
+{
+    height:100%;
+}
+#work
+{
+    text-align: center;
+}
+.photos
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto auto;
+    grid-gap: 0;
+}
+.photos img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.photoitem3
+{
+    grid-row: span 2;
+}
+#blog
+{
+    padding: 2rem 10rem;
+    background-color: #f8f8f8;
+}
+.blogitems
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.blogitem .icon-chat,
+.blogitem .icon-eye
+{
+    border: none;
+    font-size: 1rem;
+    color: var(--blue);
+}
+.blogitem img
+{
+    width:100%;
+}
+#work p
+{
+    padding: 0 10rem 2rem 10rem;
+}
+.quote img
+{
+    width: 100%;
+}
+.lower
+{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-top: solid 1px #999999;
+    margin-top: 1rem;
+}
+.info .logo
+{
+    padding: 0;
+    color: #999999;
+    font-size: 3rem;
+}
+.media
+{
+    border-top: 1px solid #999999;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+button
+{
+    background-color: var(--blue);
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+}
+input
+{
+    border: 1px solid #f0f0f0;
+    padding: 0.8rem;
+}
+input::placeholder
+{
+    color: #999999;
+}
+.blogsitem
+{
+    padding: 1rem 0;
+    display: grid;
+    margin: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+@media screen and (max-width:800px)
+{
+    .services
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    padding-bottom :2rem;
+}
+}
+@media screen and (max-width:1200px)
+{
+.upper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+    height: 100%;
+}
+.instagram
+{
+    grid-column: span 2;
+}
+}
+@media screen and (max-width:680px)
+{
+    #aboutus, #facts, #service, #work, #blog
+    {
+        padding: 2rem 5rem;
+    }
+    .feauture, .service2, .quote, .whatpeoplesay, .footer
+    {
+        padding: 2rem 5rem;
+    }
+}
